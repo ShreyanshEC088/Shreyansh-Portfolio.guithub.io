@@ -1,0 +1,929 @@
+.S {
+    font-size: 35px;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: blue;
+    display: none;
+}
+
+.nav-item:hover::after {
+    display: block;
+}
+
+.nav-item.active::after {
+    display: block;
+}
+
+.navbar-brand {
+    margin-left: 9vw;
+    margin-right: 30vw;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* color: rgb(121, 10, 225); */
+}
+
+.nav-item {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conbtn {
+    margin-top: 20px;
+    margin-bottom: 130px;
+    margin-left: 20px;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    color: white !important;
+    background-color: rgb(121, 10, 225) !important;
+}
+
+.plane {
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+section {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#home {
+    display: flex;
+    margin-top: 15vh;
+}
+
+.social {
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 1.2vw;
+}
+
+.linked {
+    flex: 1;
+}
+
+.insta {
+    flex: 1;
+}
+
+.git {
+    flex: 1;
+}
+
+.mail {
+    flex: 1;
+}
+
+.myintro {
+    flex: 1;
+}
+
+.myintro h1 {
+    padding-left: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.myintro h4 {
+    margin-top: 3px;
+    padding-left: 20px;
+}
+
+.high {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mouse {
+    margin-left: 20px;
+    height: 19px;
+    width: 19px;
+}
+
+.myimage {
+    flex: 1;
+    padding-left: 8vw;
+    height: 300px;
+    width: 300px;
+
+}
+
+.myimage img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    /* background-color: #f0f0f0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); */
+}
+
+/* ABOUT SECTION */
+#about {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.WW {
+    font-size: 30px;
+}
+
+.aboutme {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    /* margin-left: 32vw; */
+    margin-left: 0;
+    text-align: center;
+}
+
+.intro {
+    margin-left: 0;
+    text-align: center;
+    /* margin-left: 34.5vw; */
+}
+
+.content1 {
+    margin-top: 15vh;
+    display: flex;
+}
+
+.picture {
+    flex: 1;
+}
+
+.mycontent {
+    flex: 1;
+}
+
+.mycontent p {
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.count {
+    display: flex;
+    margin-top: 8vh;
+    padding: 14px;
+}
+
+.count1 {
+    flex: 1;
+}
+
+.count2 {
+    flex: 1;
+}
+
+.count3 {
+    flex: 1;
+}
+
+.dec1 {
+    margin-left: -14px;
+    margin-top: -20px;
+}
+
+.dec2 {
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.dec3 {
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.btn21 {
+    margin-top: 10vh;
+    /* margin-left: 0;
+    text-align: center; */
+}
+
+.one {
+    padding-left: 8px;
+}
+
+.obtn {
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    color: white !important;
+    background-color: rgb(121, 10, 225) !important;
+}
+
+.picture {
+    height: 450px;
+    width: 500px;
+    margin-left: 20px;
+    border-radius: 25%;
+}
+
+.picture img {
+    height: 450px;
+    width: 400px;
+    border-radius: 25px;
+}
+
+/* New-Skills */
+#skills {
+    margin-top: 10vh;
+}
+
+.flexing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    /* margin-left: 4rem; */
+    /* margin-right:30px; */
+}
+
+.row1234 {
+    flex: 1;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0 20px; */
+    text-align: center;
+}
+
+.row234 {
+    flex: 1;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0 20px; */
+    text-align: center;
+}
+
+.row34 {
+    flex: 1;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0 20px; */
+    text-align: center;
+}
+
+.ht {
+    margin: 40px;
+}
+
+.ht img {
+    height: 50px;
+    width: 50px;
+}
+
+.ht h4 {
+    text-align: center;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.aboutme1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    /* margin-left: 35vw; */
+    margin-left: 0;
+    text-align: center;
+}
+
+.intro2 {
+    margin-left: 0;
+    text-align: center;
+    /* margin-left: 34.5vw; */
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-10px) rotate(-5deg);
+    }
+
+    40% {
+        transform: translateX(10px) rotate(5deg);
+    }
+
+    60% {
+        transform: translateX(-10px) rotate(-5deg);
+    }
+
+    80% {
+        transform: translateX(10px) rotate(5deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shake-icon {
+    animation: shake 0.5s infinite;
+}
+
+
+/* Services */
+.aboutme12 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    /* margin-left: 34.5vw; */
+    margin-left: 0;
+    text-align: center;
+}
+
+.intro22 {
+    /* margin-left: 36.5vw; */
+    margin-left: 0;
+    text-align: center;
+}
+
+#services {
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+}
+
+.cardd {
+    display: flex;
+    margin-top: 15vh;
+}
+
+.card1 {
+    margin: 10px;
+    height: 20rem;
+    width: auto;
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* padding:30px; */
+}
+
+.card2 {
+    margin: 10px;
+    height: 20rem;
+    width: auto;
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.arr {
+    margin-top: 90px;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+
+.do-purp {
+    margin-left: 20px;
+}
+
+.do-purp a {
+    color: rgb(121, 10, 225);
+}
+
+.right {
+    margin-left: 20px;
+}
+
+.fontw {
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* PortFolio */
+
+#portfolio {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+}
+
+.port {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.carousell {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 0;
+    text-align: center;
+}
+
+.carousell img {
+    height: auto;
+    width: auto;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.img-slide {
+    flex: 1;
+}
+
+.content-slide {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.head {
+    flex: 1;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftbtn {
+    margin-right: 50px !important;
+    /* background-color:rgb(121, 10, 225)!important; */
+}
+
+.intro-1 {
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.demo {
+    margin-left: 2rem;
+    height: auto;
+    width: auto;
+    background-color: rgb(121, 10, 225) !important;
+    color: white !important;
+    border-radius: 25px;
+}
+
+/* Contact */
+
+#contact {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+}
+
+.head1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contc1 {
+    flex: 1;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.call {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+}
+
+/* .call1 img{
+    margin-left:12vw;
+  } */
+.call1,
+.call2,
+.email2,
+.location2 {
+    flex: 1;
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+
+.contc2 {
+    flex: 1;
+    padding: 25px;
+    margin-top: 3.6rem;
+}
+
+.ppl {
+    background-color: rgba(205, 165, 241, 0.411) !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.names {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fname,
+.lname {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.ff-c {
+    height: 60px;
+}
+
+.ffc {
+    height: 50px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: rgba(205, 169, 239, 0.514);
+    text-align: center;
+    padding: 2% 6%;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    border-radius: 25px;
+}
+
+#footer h1 {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+#footer h4 {
+    display: flex;
+    font-size: 20px;
+    margin-left: 4px;
+    align-items: start;
+    justify-content: start;
+}
+
+.ftt {
+    padding: 0px 15px;
+    color: black;
+}
+
+.pp {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Mobile-first styles */
+    .S {
+        font-size: 35px;
+    }
+
+    .navbar-brand {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 24px;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .nav-item {
+        margin-left: 8px;
+        margin-right: 8px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .conbtn {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        border-radius: 25px;
+        height: 40px;
+        width: 160px;
+        color: white !important;
+        background-color: rgb(121, 10, 225) !important;
+    }
+
+    .plane {
+        margin-left: 10px;
+        margin-right: 2px;
+    }
+
+    section {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    #home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10vh;
+    }
+
+    .social {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .linked,
+    .insta,
+    .git,
+    .mail,
+    .myintro {
+        margin-bottom: 10px;
+    }
+
+    .myintro {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .myintro h1 {
+        padding-left: 0;
+        font-family: 'Nunito', sans-serif;
+        font-size: 28px;
+    }
+
+    .myintro h4 {
+        margin-top: 3px;
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+    .high {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .mouse {
+        margin-left: 20px;
+        height: 15px;
+        width: 15px;
+    }
+
+    .myimage {
+        padding-left: 2vw;
+        height: 200px;
+        width: 200px;
+    }
+
+    .myimage img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+    }
+
+    /* ABOUT SECTION */
+    #about {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .WW {
+        font-size: 24px;
+    }
+
+    .aboutme {
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .intro {
+        text-align: center;
+        margin-left: 0;
+        /* margin-bottom: 20px; */
+    }
+
+    .content1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .picture {
+        height: auto;
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .mycontent p {
+        font-size: 16px;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .count {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 4vh;
+        padding: 10px;
+    }
+
+    .count1,
+    .count2,
+    .count3 {
+        flex: 1 1 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .dec1,
+    .dec2,
+    .dec3 {
+        margin-top: -10px;
+    }
+
+    .btn21 {
+        margin-top: 6vh;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .one {
+        padding-left: 4px;
+    }
+
+    .obtn {
+        border-radius: 25px;
+        height: 40px;
+        width: 160px;
+        color: white !important;
+        background-color: rgb(121, 10, 225) !important;
+    }
+
+    .picture img {
+        height: auto;
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    /* New-Skills */
+    #skills {
+        margin-top: 10vh;
+    }
+
+    .flexing {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .row1234,
+    .row234,
+    .row34 {
+        flex: 1 1 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ht {
+        margin: 20px;
+    }
+
+    .ht img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .ht h4 {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+
+    .aboutme1 {
+        font-size: 28px;
+        margin-left: 0;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .intro2 {
+        text-align: center;
+        margin-left: 0;
+        /* margin-bottom: 20px; */
+    }
+
+    .aboutme12 {
+        font-size: 28px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .intro22 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .card1,
+    .card2 {
+        width: 70%;
+        max-width: none;
+    }
+
+    #portfolio {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .carousell {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .leftbtn {
+        margin-right: 20px !important;
+    }
+
+    .intro-1 {
+        font-size: 14px;
+    }
+
+    .email2 {
+        flex: 1;
+        margin-left: 8vw;
+    }
+
+    #contact {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .contc1 {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .call {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .call1,
+    .call2,
+    .email2,
+    .location2 {
+        margin-left: 0;
+    }
+
+    .contc2 {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Styles for screens up to 480px */
+    #portfolio {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .port {
+        flex-direction: column;
+    }
+
+    .carousell {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .carousell img {
+        border-radius: 10px;
+    }
+
+    .head {
+        font-size: 18px;
+    }
+
+    .demo {
+        margin-left: 1rem;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+}
