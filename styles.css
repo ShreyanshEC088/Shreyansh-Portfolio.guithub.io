@@ -922,8 +922,37 @@ section {
         text-align: center;
         /* align-items: start;
         justify-content: start;*/
-    }
-
+    } 
 }
 
+@media (max-width: 480px) {
 
+    /* Styles for screens up to 480px */
+    #portfolio {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .port {
+        flex-direction: column;
+    }
+
+    .carousell {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .carousell img {
+        border-radius: 10px;
+    }
+
+    .head {
+        font-size: 18px;
+    }
+
+    .demo {
+        margin-left: 1rem;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
