@@ -481,7 +481,7 @@ section {
     margin-top: 5vh;
     margin-left: 10vw;
     margin-right: 10vw;
-    /* margin-bottom: 10vh; */
+    margin-bottom: 10vh;
 }
 
 .head1 {
@@ -766,7 +766,7 @@ section {
 
     .obtn {
         border-radius: 25px;
-        height: 40px;
+        height: auto;
         width: 160px;
         color: white !important;
         background-color: rgb(121, 10, 225) !important;
@@ -897,6 +897,24 @@ section {
     .contc2 {
         margin-top: 2rem;
     }
+    #footer h1 {
+        font-family: 'Nunito', sans-serif;
+        display: flex;
+        margin-left: 0;
+        text-align: center;
+        /* align-items: start;
+        justify-content: start; */
+    }
+    
+    #footer h4 {
+        display: flex;
+        font-size: 20px;
+        /* margin-left: 4px; */
+        margin-left: 0;
+        text-align: center;
+        /* align-items: start;
+        justify-content: start;
+    } */
 }
 
 @media (max-width: 480px) {
