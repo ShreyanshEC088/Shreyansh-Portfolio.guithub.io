@@ -891,8 +891,7 @@ section {
     .n1{
         display: flex;
         margin-top:15px;
-        margin-left: 0;
-        text-align: center;
+        margin-left: 50px;
     }
     .call1,
     .call2,
@@ -959,7 +958,6 @@ section {
     .n1{
         display: flex;
         margin-top:15px;
-        margin-left: 0;
-        text-align: center;
+        margin-left:10%;
     }
 }
