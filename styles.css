@@ -955,4 +955,9 @@ section {
         padding: 5px 10px;
         font-size: 12px;
     }
+    .n1{
+        display: flex;
+        margin-top:15px;
+        margin-left: 60px;
+    }
 }
