@@ -958,6 +958,6 @@ section {
     .n1{
         display: flex;
         margin-top:15px;
-        margin-left: 60px;
+        margin-left: auto;
     }
 }
