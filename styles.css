@@ -586,7 +586,18 @@ section {
 .pp {
     margin-top: 15px;
 }
-
+/* Top button */
+#back-to-top-btn {
+    border-radius: 25px;
+    margin-right:-5vw;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color:rgba(121, 10, 225, 0.872);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
 @media only screen and (max-width: 768px) {
 
     /* Mobile-first styles */
