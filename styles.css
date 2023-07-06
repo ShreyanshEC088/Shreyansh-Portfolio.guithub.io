@@ -937,14 +937,16 @@ section {
         /* align-items: start;
         justify-content: start;*/
     } 
-    @media (max-width: 767px) {
-        #back-to-top-btn {
-          bottom: 10px;
-          right: 10px;
-          padding: 8px 12px;
-          font-size: 14px;
-          margin-right: 0;
-        }
+    #back-to-top-btn {
+        bottom: 10px;
+        right: 10px;
+        padding: 8px 12px;
+        font-size: 14px;
+        margin-right: 0;
+      }
+      .homebtn{
+          align-items: center!important;
+          justify-content: center!important;
       }
 }
 
