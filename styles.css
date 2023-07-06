@@ -218,7 +218,7 @@ section {
 
 .obtn {
     border-radius: 25px;
-    height: 50px;
+    height: auto;
     width: 200px;
     color: white !important;
     background-color: rgb(121, 10, 225) !important;
@@ -582,7 +582,6 @@ section {
     padding: 0px 15px;
     color: black;
 }
-
 .pp {
     margin-top: 15px;
 }
@@ -593,6 +592,7 @@ section {
     bottom: 20px;
     right: 20px;
     padding: 10px 15px;
+    /* background-color: rgba(239, 239, 98, 0.336); */
     background-color:rgba(121, 10, 225, 0.872);
     color: #fff;
     border: none;
