@@ -1,3 +1,6 @@
+body{
+    scroll-behavior: smooth;
+}
 .S {
     font-size: 35px;
 }
