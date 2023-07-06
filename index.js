@@ -13,19 +13,21 @@ icons.forEach(icon => {
     icon.classList.remove('shake-icon');
   });
 });
-{/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-$(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 200) {
-      $('#back-to-top-btn').fadeIn();
-    } else {
-      $('#back-to-top-btn').fadeOut();
-    }
-  });
+function copyToEmail() {
+  // Get the message and subject entered by the user
+  var message = document.getElementById("message").value;
+  var subject = document.getElementById("project").value;
 
-  $('#back-to-top-btn').click(function() {
-    $('html, body').animate({ scrollTop: 0 }, 'slow');
-    return false;
-  });
-}); */}
+  // Open Gmail and populate the email text area with the message and subject
+  var emailBody = encodeURIComponent(message);
+  var mailtoLink = "mailto:shreyansh06001@gmail.com?body=" + emailBody;
+
+  // Include the subject if it is provided
+  if (subject) {
+    var encodedSubject = encodeURIComponent(subject);
+    mailtoLink += "&subject=" + encodedSubject;
+  }
+
+  // Open the email client
+  window.location.href = mailtoLink;
+}
