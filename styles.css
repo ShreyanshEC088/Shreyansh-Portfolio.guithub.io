@@ -470,7 +470,7 @@ section {
 }
 
 .demo {
-    margin-left: 2rem;
+    margin-left: auto;
     height: auto;
     width: auto;
     background-color: rgb(121, 10, 225) !important;
